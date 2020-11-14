@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="public/style/layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/search" method="POST">
+        <fieldset>
+            <input type="text" name="search" required><br>
+
+            <input type="radio" name="type" id="title" value="+intitle:" required>
+            <label for="title">title</label><br>
+
+            <input type="radio" name="type" id="author" value="+inauthor:" required>
+            <label for="author">author</label><br>
+
+            <input type="submit" required>
+        </fieldset>
+    </form>
+</body>
+
+</html>
